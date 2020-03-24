@@ -1,0 +1,36 @@
+git reset --soft (volta para o ponto selecionado, e as alterações posteriores sem terem o commit)
+
+git reset --mixed (volta para o ponto selecionado, as alterações 
+posteriores sem terem sido adicionadas)
+
+git reset --hard (lost everything u did until this point)
+
+git branch NomeDaBranchQueVaiSerCriada
+
+git checkout NomeDaBranchQueVaiSerDirecionado
+
+git diff (mostra o que foi alterado)
+
+git diff --name-only (mostra apenas o nome dos arquivos modificados)
+
+git diff NomeDoArquivoQueVcQuerVerAsMudanças
+
+git checkout HEAD --NomeDoArquivoQueVcNaoQuerFazerAsMudanças
+
+git remote
+
+git remote -V
+
+git push -u origin master
+
+git revert --no-edit CodigoDoCommitASerRevertido
+
+git push origin :NomeDaBranchQueVaiSerApagadaDoRepositorioRemoto
+
+git branch -D NomeDaBranchQueVaiSerDeletadaDoPC
+
+git pull origin master
+
+git clone URLDoProjetoQueVaiSerClonado
+
+
