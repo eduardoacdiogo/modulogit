@@ -1,3 +1,25 @@
+git config --global user.name NomeDoUsuario
+
+git config --global user.email EmailDoUsuario
+
+git config --list
+
+git init (para iniciar o repositório na pasta)
+
+git status
+
+git add NomeDoArquivo
+
+git add -A (add todos os arquivos)
+
+git commit -m "Comentario"
+
+git commit -am "Comentario"
+
+git log
+
+git branch
+
 git reset --soft (volta para o ponto selecionado, e as alterações posteriores sem terem o commit)
 
 git reset --mixed (volta para o ponto selecionado, as alterações 
